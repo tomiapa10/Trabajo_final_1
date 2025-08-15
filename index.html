@@ -13,67 +13,88 @@
         <p  class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">TomasAparicio10</p>
         </div>
         <div>
-        <p>Inicio</p>
-        <p>Proyectos</p>
-        <p>Experiencia</p>
-        <p>Skills</p>
-        <p>Sobre mi</p>
-        <p>Contacto</p>
+        <nav class="space-x-4">
+        <a href="#section1" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg transition">Inicio</a>
+        <a href="#section2" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg transition">Proyectos</a>
+        <a href="#section3" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg transition">Experiencia</a>
+        <a href="#section4" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg transition">Skills</a>
+        <a href="#section5" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg transition">Sobre mí</a>
+        <a href="#section6" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg transition">Contacto</a>
+      </nav>
         </div>
     </header>
-    <section>
-        <div>
-        <h3>Hola! Soy Tomas Aparicio</h3>
-        <p>Soy estudiante de Ingenierias en Sistemas de Informacion en la Universidad Tecnologica Nacional Facultad Regional Mendoza y apasionado por la programacion</p>
-        </div>
-        <div>
-            <button></button>
-            <button></button>
+    <!-- INICIO -->
+    <section id="section1" class="min-h-screen flex items-center justify-center px-6 pt-24">
+        <div class="max-w-4xl text-center">
+        <h3 class="text-3xl font-bold mb-4">Hola! Soy Tomas Aparicio</h3>
+        <p class="text-lg text-gray-700 mb-6">Soy estudiante de Ingenierias en Sistemas de Informacion en la Universidad Tecnologica Nacional Facultad Regional Mendoza y apasionado por la programacion</p>
         </div>
         <div>
             <img src="img/WhatsApp Image 2025-06-25 at 20.59.00.jpeg" alt="Foto_Personal">
         </div>    
     </section>
-    <section>
-        <h1>Experiencia</h1>
-        <p>Curso Primeros Pasos en Desarrollo Web 2022 - Finalizado</p>
-        <p>Curso Primeros Pasos en Python 2023 - Finalizado</p>
+    
+     <!-- PROYECTOS -->
+    <section id="section2" class="py-20 px-6">
+     <h1 class="text-3xl font-bold text-center mb-10">Proyectos</h1>
+    <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="img/WhatsApp Image 2025-08-15 at 00.14.12.jpeg" alt="tarjeta personal" class="w-full">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Proyecto Tarjeta Personal</h3>
+          <p class="text-gray-600 text-sm">Tarjeta personal simple, con animación al pasar el cursor sobre la imagen.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="img/WhatsApp Image 2025-08-15 at 00.15.36.jpeg" alt="restaurante" class="w-full">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Proyecto Menú Estático</h3>
+          <p class="text-gray-600 text-sm">Menú estático con una leve animación al acercar el cursor a cada producto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--EXPERIENCIA-->
+  <section id="section3" class="py-20 px-6 bg-green-50">
+        <h1 class="text-3xl font-bold text-center mb-6">Experiencia</h1>
+        <p class="text-center text-gray-700">Curso Primeros Pasos en Desarrollo Web 2022 - Finalizado</p>
+        <p class="text-center text-gray-700">Curso Primeros Pasos en Python 2023 - Finalizado</p>
+        <p class="text-center text-gray-700">Desarrollador Full Stack 2025 - En proceso</p>
     </section>
-    <section>
-        <h1>Skills</h1>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JAVASCRIPT</p>
-        <p>PYTHON</p>
+    <!-- SKILLS -->
+    <section id="section4" class="py-20 px-6">
+        <h1 class="text-3xl font-bold text-center mb-6">Skills</h1>
+        <div class="flex justify-center gap-6 flex-wrap">
+      <span class="bg-green-200 px-4 py-2 rounded-full">HTML</span>
+      <span class="bg-green-200 px-4 py-2 rounded-full">CSS</span>
+      <span class="bg-green-200 px-4 py-2 rounded-full">JavaScript</span>
+      <span class="bg-green-200 px-4 py-2 rounded-full">Python</span>
+    </div>
     </section>
-    <section>
-    <div> <img src="img/WhatsApp Image 2025-08-15 at 00.14.12.jpeg" alt="tarjetapersonal">
-    <h3>Proyecto Tarjeta Personal</h3>
-      <p class="text-gray-600 text-sm">Tarjeta personal simple, con animacion cuando se pone el cursor sobre la imagen</p></div>
-    <div><img src="img/WhatsApp Image 2025-08-15 at 00.15.36.jpeg" alt="restaurante">
-    <h3>Proyecto Menu Estatico</h3>
-      <p>Menu estatico, que tiene una leve animacion cuando se acerca el curso a cada producto</p></div>
+    <!--SOBRE MI-->
+    <section id="section5" class="py-20 px-6 bg-green-50">
+        <h1 class="text-3xl font-bold text-center mb-6">Sobre mi</h1>
+        <p class="max-w-4xl mx-auto text-center text-gray-700">Mi nombre es Tomas Valentin Aparicio, tengo 24 años y soy estudiante de Ingenieria en Sistemas de Informacion en la Universidad Tecnologica Nacional, Actualmente me encuentro trabajando en una clinica Odontologica llamada Studio Dental. Soy un apasionado por el deporte, juego en la Liga de Honor de Handball Mendocino en el club Capital de Mendoza.</p>
     </section>
-    <section>
-        <h1>Sobre mi</h1>
-        <p>Mi nombre es Tomas Valentin Aparicio, tengo 24 años y soy estudiante de Ingenieria en Sistemas de Informacion en la Universidad Tecnologica Nacional, Actualmente me encuentro trabajando en una clinica Odontologica llamada Studio Dental. Soy un apasionado por el deporte, juego en la Liga de Honor de Handball Mendocino en el club Capital de Mendoza.</p>
+    <!--CONTACTO-->
+    <section id="section6" class="py-20 px-6">
+        <h2 class="text-3xl font-bold text-center mb-6">Contacto</h2>
+    <form action="" method="post" class="max-w-md mx-auto bg-white p-6 rounded-xl shadow-md space-y-4">
+      <label for="name" class="block">Nombre</label>
+      <input type="text" id="name" name="name" required class="w-full border-gray-300 rounded-lg p-2">
+      <label for="numero" class="block">Número de teléfono</label>
+      <input type="tel" id="numero" name="numero" required class="w-full border-gray-300 rounded-lg p-2">
+      <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg">Enviar</button>
+    </form>
     </section>
-    <section >
-        <form action="" method="post">
-        <h2 class=>Contacto</h2>
-        <label for="name">Nombre</label>
-        <input type="text" id="name" name="name" required>
-        <label for="name">Numero de telefono</label>
-        <input type="numerotelefono" id="numero" name="numero" required>
-      <button type="submit">Enviar</button>
-</form>
-    </section>
-    <footer>
-        <img src="img/linkedin.svg" alt="linkedin">
-        <img src="img/snapchat.svg" alt="snapchat">
-        <img src="img/twitter-x.svg" alt="x">
-        <img src="img/whatsapp.svg" alt="whatsapp">
-        <img src="img/instagram.svg" alt="instagram">
+    <footer class="bg-green-700 text-white py-6">
+        <div class="flex justify-center gap-6">
+      <img src="img/linkedin.svg" alt="linkedin" class="h-6">
+      <img src="img/snapchat.svg" alt="snapchat" class="h-6">
+      <img src="img/twitter-x.svg" alt="x" class="h-6">
+      <img src="img/whatsapp.svg" alt="whatsapp" class="h-6">
+      <img src="img/instagram.svg" alt="instagram" class="h-6">
+    </div>
     </footer>
 </body>
 </html>
